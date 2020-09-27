@@ -4,8 +4,8 @@
     "email": "tirpitz@taw.net",
     "web_console_local_port": 3001,
     "admin_steam_ids": [
-        "76561198021054874", # Tirpitz
-        "76561198021054874" # Exonic
+        "76561198012264515", # exonic
+        "76561198021054874" # Tirpitz
     ],
     "server_prefix": "TAW.net ",
     "server_suffix": "(EU)"
