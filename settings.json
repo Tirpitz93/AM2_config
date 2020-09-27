@@ -1,10 +1,11 @@
 {
     "battalion": "TAW AM2",
-    "domain": "am2.lselter.co.uk",
+    "domain": "test2.am2.lselter.co.uk",
     "email": "tirpitz@taw.net",
-    "web_console_local_port": 3000,
+    "web_console_local_port": 3001,
     "admin_steam_ids": [
-        "76561198011089512" # Dystroxic
+        "76561198021054874" # Tirpitz
+        "76561198021054874" # Exonic
     ],
     "server_prefix": "TAW.net ",
     "server_suffix": "(EU)"
