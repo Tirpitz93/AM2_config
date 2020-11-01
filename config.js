@@ -16,8 +16,9 @@ module.exports =  {
     "mods_server"
   ],
   "admins": [ // Steam IDs of users who can login as admin without a password
-    "76561198011089512", // Dystroxic
     "76561198021054874", // Tirpitz
+    "76561198012264515", // exonic
+    "76561197970612305"  //feral
   ],
   // These values are filled dynamically on the server with proper username/password
   "auth": { // If both username and password is set, HTTP Basic Auth will be used. You may use an array to specify more than one user.
