@@ -1,28 +1,88 @@
 [
-  {
-    "additionalConfigurationOptions": "",
-    "admin_password": "${password}",
-    "allowed_file_patching": 1,
-    "auto_start": false,
-    "battle_eye": false,
-    "file_patching": true,
-    "forcedDifficulty": "Veteran",
-    "max_players": "",
-    "missions": [
-      {
-        "name": "ctc_v17c3.altis",
-        "difficulty": "custom"
-      }
-    ],
-    "mods": [],
-    "motd": null,
-    "number_of_headless_clients": "0",
-    "parameters": [],
-    "password": "${password}",
-    "persistent": false,
-    "port": 2312,
-    "title": "Battalion",
-    "von": false,
-    "verify_signatures": false
-  }
+    {
+        "additionalConfigurationOptions": "forceRotorLibSimulation = 1;",
+        "admin_password": "${password}",
+        "allowed_file_patching": 1,
+        "auto_start": false,
+        "battle_eye": true,
+        "file_patching": true,
+        "forcedDifficulty": "Custom",
+        "max_players": "64",
+        "missions": [
+            {
+                "difficulty": "custom",
+                "name": "antistasi-v02.altis"
+            }
+        ],
+        "mods": [],
+        "motd": null,
+        "number_of_headless_clients": "3",
+        "parameters": [
+            "-enableHT",
+            "-high",
+            "-hugePages"
+        ],
+        "password": "${password}",
+        "persistent": false,
+        "port": 2382,
+        "title": "Antistasi - Altis",
+        "verify_signatures": false,
+        "von": false
+    },
+    {
+        "additionalConfigurationOptions": "forceRotorLibSimulation = 1;",
+        "admin_password": "${password}",
+        "allowed_file_patching": 1,
+        "auto_start": false,
+        "battle_eye": true,
+        "file_patching": true,
+        "forcedDifficulty": "Custom",
+        "max_players": "70",
+        "missions": [
+            {
+                "difficulty": "custom",
+                "name": "armadillo.tem_kujari"
+            }
+        ],
+        "mods": [],
+        "motd": null,
+        "number_of_headless_clients": "3",
+        "parameters": [
+            "-enableHT",
+            "-high",
+            "-hugePages"
+        ],
+        "password": "${password}",
+        "persistent": false,
+        "port": 2302,
+        "title": "Battalion Server",
+        "verify_signatures": false,
+        "von": false
+    },
+    {
+        "additionalConfigurationOptions": "",
+        "admin_password": "${password}",
+        "allowed_file_patching": 1,
+        "auto_start": false,
+        "battle_eye": false,
+        "file_patching": true,
+        "forcedDifficulty": "Veteran",
+        "max_players": "",
+        "missions": [
+            {
+                "difficulty": "custom",
+                "name": "ctc_v17c3.altis"
+            }
+        ],
+        "mods": [],
+        "motd": null,
+        "number_of_headless_clients": "0",
+        "parameters": [],
+        "password": "${password}",
+        "persistent": false,
+        "port": 2312,
+        "title": "CTC 1",
+        "verify_signatures": false,
+        "von": false
+    }
 ]
