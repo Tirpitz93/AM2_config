@@ -454,6 +454,39 @@ acex_volume_reduction = 5;
 acex_volume_remindIfLowered = false;
 acex_volume_showNotification = true;
 
+// ACRE2
+acre_sys_core_automaticAntennaDirection = false;
+acre_sys_core_defaultRadioVolume = 0.8;
+acre_sys_core_fullDuplex = false;
+acre_sys_core_godVolume = 1;
+acre_sys_core_ignoreAntennaDirection = true;
+acre_sys_core_interference = true;
+acre_sys_core_postmixGlobalVolume = 1;
+acre_sys_core_premixGlobalVolume = 1;
+acre_sys_core_revealToAI = 1;
+acre_sys_core_spectatorVolume = 1;
+acre_sys_core_terrainLoss = 0.5;
+acre_sys_core_ts3ChannelName = "";
+acre_sys_core_ts3ChannelPassword = "";
+acre_sys_core_ts3ChannelSwitch = false;
+acre_sys_core_unmuteClients = true;
+acre_sys_signal_signalModel = 0;
+
+// ACRE2 Animations
+force radioAnims_cba_ads = false;
+radioAnims_cba_Earpieces = "[""G_WirelessEarpiece_F""]";
+radioAnims_cba_main = true;
+radioAnims_cba_preference_Others = "Hand";
+radioAnims_cba_preference_PRC148 = "Hand";
+radioAnims_cba_preference_PRC152 = "Vest";
+radioAnims_cba_preference_PRC343 = "Vest";
+radioAnims_cba_preference_SEM52SL = "Vest";
+radioAnims_cba_vehicles = false;
+radioAnims_cba_vestarmor = true;
+radioAnims_cba_vests = "[]";
+
+
+
 // ADV - ACE CPR
 force force adv_aceCPR_addTime = 20;
 force force adv_aceCPR_AED_stationType = """Land_Defibrillator_F""";
